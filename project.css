@@ -1,0 +1,196 @@
+:root {
+    --textcolor: rgb(190, 190, 190);
+}
+
+.project-sec {
+    width: 100%;
+    padding: 80px 250px 130px 250px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    z-index: 1;
+}
+
+.project-sec h2 {
+    text-align: center;
+    font-size: 7rem;
+    letter-spacing: 10px;
+    padding: 40px 0;
+}
+
+.project-ctn{
+    width: 100%;
+    max-width: 1100px;
+}
+
+.project {
+    height: 500px;
+    padding: 20px 30px;
+    position: sticky;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    max-width: 1100px;
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+    box-shadow: 0 -30px 60px rgba(0, 0, 0, 0.6);
+    border-radius: 30px;
+    border: 2px solid white;
+    background: #000000;
+    gap: 1rem;
+}
+
+.prj1 {
+    top: 70px;
+    margin-bottom: 120px;
+}
+
+.prj2 {
+    top: 130px;
+    margin-bottom: 120px;
+}
+
+.prj3 {
+    top: 190px;
+}
+
+
+.blank-spc {
+    width: 100%;
+    height: 100vh;
+}
+
+.sec1 {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sec1-part {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.num {
+    font-size: 4.5rem;
+}
+
+.info {
+    padding: 0 20px;
+}
+
+.info h4 {
+    font-size: 2.2rem;
+    font-weight: 100;
+}
+
+.info p {
+    font-size: 1.3rem;
+    font-weight: 100;
+}
+
+.project-btn {
+    padding-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.project-btn button {
+    padding: 20px 30px;
+    border-radius: 25px;
+    border: 2px solid white;
+    background: #000000;
+    color: white;
+    font-weight: bolder;
+}
+
+.sec2 {
+    width: 100%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    padding-bottom: 10px;
+    gap: 2rem;
+}
+
+.sec2-part1 {
+    width: 55%;
+    height: 100%;
+}
+
+.pro-img1 {
+    background-image: url('https://img.freepik.com/premium-photo/quaint-village-with-cozy-cottages-winding-river_1029473-4577.jpg');
+}
+
+.pro-img2 {
+    background-image: url('https://img.freepik.com/free-photo/3d-rendering-illustration-botanic-garden_23-2151464645.jpg');
+}
+
+.pro-img3 {
+    background-image: url('https://w0.peakpx.com/wallpaper/396/203/HD-wallpaper-balls-fantasy-color-spheres-abstract.jpg');
+}
+
+.pro-img4 {
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTW7spFk2PwvRNaJzmcKzUThvThhylzAI8-7ktVLk208NZ6fkDoGSbzW8Y&s');
+}
+
+.pro-img5 {
+    background-image: url('https://i.ytimg.com/vi/MdFOlvNaAXg/sddefault.jpg');
+}
+
+.pro-img6 {
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIjClVd_0M38vWGH1qorFEDFNUGefxaRKhtxdUetqHbQ&s');
+}
+
+.pro-img7 {
+    background-image: url('https://i.pinimg.com/736x/36/83/b7/3683b7cde5d419e6256a0695dc790873.jpg');
+}
+
+.pro-img8 {
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDalRGKiSE61cPblMWL-MtxNReL04lGD5gTtC0bVga2h3ehHb6');
+}
+
+.pro-img9 {
+    border-radius: 30px;
+    background-image: url('https://noemamag.imgix.net/2023/06/Alex-Valentina-947-x-1186.jpg?fit=crop&fm=pjpg&h=628&ixlib=php-3.3.1&w=1200&wpsize=noema-social-facebook&s=bf50b640f08f4abd1738f2fc9880646a');
+}
+
+.border {
+    border-radius: 30px;
+}
+
+.bground {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sec2-part2 {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.part2-sub1 {
+    width: 100%;
+    height: 200px;
+}
+
+.part2-sub2 {
+    width: 100%;
+    height: 170px;
+}

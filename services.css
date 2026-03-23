@@ -1,0 +1,63 @@
+:root {
+    --textcolor: rgb(190, 190, 190);
+}
+
+.service-sec{
+    background-color: white;
+    width: 100%;
+    height: auto;
+    border-radius: 30px 30px 0 0;
+    padding: 40px 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 100px;
+}
+
+.service-sec h2{
+    text-align: center;
+    color: black;
+    font-size: 7rem;
+    letter-spacing: 5px;
+}
+
+.service-ctn,
+.service{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.service-ctn{
+    width: 70vw;
+    flex-direction: column;
+    max-width: 1540px;
+    padding: 40px;
+}
+
+.service{
+    margin-top: 20px;
+    padding: 10px;
+    flex-direction: row;
+    border-bottom: 2px solid grey;
+}
+
+.ser-no {
+    letter-spacing: 10px;
+}
+
+.service-about{
+    padding: 0 20px;
+}
+
+.service-about h4{
+    color: black;
+    letter-spacing: 1px;
+    font-size: 1.2rem;
+}
+
+.service-about p {
+    padding-top: 5px;
+    color: rgb(99, 99, 99);
+}
