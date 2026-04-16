@@ -65,6 +65,12 @@ main,
     /* display: none; */
 }
 
+.black {
+    width: 10px;
+    height: 10px;
+    background-color: black;
+}
+
 .second-head ul {
     width: 100%;
     justify-content: space-between;
