@@ -103,7 +103,8 @@
     justify-content: center;
 }
 
-.project-btn button {
+.project-btn a {
+    text-decoration: none;
     padding: 20px 30px;
     border-radius: 25px;
     border: 2px solid white;
