@@ -55,6 +55,8 @@ main,
 
 
 .custm-crsr {
+    top:0;
+    left:0;
     mix-blend-mode: difference;
     width: 50px;
     height: 50px;
