@@ -253,7 +253,7 @@
                             </div>
                         </div>
                         <div class="project-btn">
-                            <a href="https://code-domain.github.io/DevLearn-School/"><button>LIVE PROJECT</button></a>
+                            <a href="https://code-domain.github.io/DevLearn-School/">LIVE PROJECT</a>
                         </div>
                     </div>
                     <div class="sec2">
@@ -276,7 +276,7 @@
                             </div>
                         </div>
                         <div class="project-btn">
-                            <a href ="https://pearl-user-39880292.figma.site/"><button>LIVE PROJECT</button></a>
+                            <a href ="https://pearl-user-39880292.figma.site/">LIVE PROJECT</a>
                         </div>
                     </div>
                     <div class="sec2">
@@ -299,7 +299,7 @@
                             </div>
                         </div>
                         <div class="project-btn">
-                            <a href = "#"><button>LIVE PROJECT</button></a>
+                            <a href = "#">LIVE PROJECT</a>
                         </div>
                     </div>
                     <div class="sec2">
@@ -456,12 +456,14 @@
     </footer>
     <script>
         let body = document.querySelector("body");
-        let crsr = document.querySelectorAll("header .custm-crsr");
+    let crsr = document.querySelectorAll("header .custm-crsr");
 
-        body.addEventListener("mousemove", function (dets) {
-            crsr.style.left = dets.x + "px";
-            crsr.style.top = dets.y + "px";
-        })
+    body.addEventListener("mousemove", function(dets) {
+        crsr.forEach(function(cursor) {
+            cursor.style.left = dets.x + "px";
+            cursor.style.top = dets.y + "px";
+        });
+    });
 
 
         document.addEventListener('contextmenu', function (e) {
