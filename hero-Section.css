@@ -66,14 +66,6 @@ main,
     pointer-events: none;
 }
 
-.black {
-    width: 10px;
-    height: 10px;
-    background-color: black;
-    border: none;
-    border-radius: 50%;
-}
-
 .second-head ul {
     width: 100%;
     justify-content: space-between;
