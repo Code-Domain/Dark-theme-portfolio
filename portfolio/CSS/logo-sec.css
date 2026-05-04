@@ -1,0 +1,188 @@
+
+.logo-sec {
+    width: 100%;
+    overflow: hidden;
+    background: black;
+    padding: 30px 0;
+}
+
+.item,
+.slides,
+.slide2 {
+    height: auto;
+    position: absolute;
+}
+
+.item,
+.slide2{
+    left: calc(200px * 8);
+    border-radius: 6px;
+}
+
+.item{
+    width: 100px;
+}
+
+.item,
+.slide2{
+    animation: scrollLeft 30s linear infinite;
+}
+
+.slides{
+    width: 200px;
+    right: calc(200px * 8);
+    border-radius: 20px;
+}
+
+.slides{
+    animation: scrollright 30s linear infinite;
+}
+
+.item:hover,
+.slides:hover,
+.slide2:hover{
+    transform: translateY(-10px);
+}
+
+.slide2{
+    width: 200px;
+    margin-top: 10px;
+    border-radius: 20px;
+}
+
+.logo-ctn1 {
+    position: relative;
+    width: 90%;
+    max-width: 1536px;
+    margin-inline: auto;
+    height: 130px;
+    overflow: hidden;
+    mask-image: linear-gradient(to right,
+            rgba(0, 0, 0, 0),
+            rgba(0, 0, 0, 1) 20%,
+            rgba(0, 0, 0, 1) 80%,
+            rgba(0, 0, 0, 0));
+}
+
+@keyframes scrollLeft {
+    to {
+        left: -110px;
+    }
+}
+
+@keyframes scrollright {
+    to{
+        right: -110px;
+    }
+}
+
+.item1 {
+    animation-delay: calc((30s / 8)*(8 - 1)*-1);
+}
+
+.item2 {
+    animation-delay: calc((30s / 8)*(8 - 2)*-1);
+}
+
+.item3 {
+    animation-delay: calc((30s / 8)*(8 - 3)*-1);
+}
+
+.item4 {
+    animation-delay: calc((30s / 8)*(8 - 4)*-1);
+}
+
+.item5 {
+    animation-delay: calc((30s / 8)*(8 - 5)*-1);
+}
+
+.item6 {
+    animation-delay: calc((30s / 8)*(8 - 6)*-1);
+}
+
+.item7 {
+    animation-delay: calc((30s / 8)*(8 - 7)*-1);
+}
+
+.item8 {
+    animation-delay: calc((30s / 8)*(8 - 8)*-1);
+}
+
+.logo-ctn1  svg {
+    width: 100px;
+    height: 100px;  
+    fill: white;
+    flex-shrink: 0;
+    display: block;
+}
+
+.background{
+    height: 120px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.img1{
+    background-image: url('https://img.freepik.com/free-vector/rainbow-coloured-swirl-background_1048-2246.jpg?semt=ais_hybrid&w=740&q=80');
+}
+
+.img2{
+    background-image: url('https://t4.ftcdn.net/jpg/02/54/21/61/360_F_254216141_ZIWWpUlP2I5sAVpUDvhCAXVs5eBEKHoj.jpg');
+}
+
+.img3{
+    background-image: url('https://4kwallpapers.com/images/wallpapers/gradient-background-2880x1800-10974.jpg');
+}
+
+.img4{
+    background-image: url('https://static.vecteezy.com/system/resources/thumbnails/002/977/735/small/colorful-abstract-background-free-vector.jpg');
+}
+
+.img5{
+    background-image: url('https://png.pngtree.com/thumb_back/fh260/background/20240223/pngtree-abstract-colorful-happy-holi-background-image_15630264.jpg');
+}
+
+.img6{
+    background-image: url('https://img.freepik.com/free-photo/vibrant-colors-flow-abstract-wave-pattern-generated-by-ai_188544-9781.jpg?semt=ais_hybrid&w=740&q=80');
+}
+
+.img7{
+    background-image: url('https://img.freepik.com/free-photo/abstract-colorful-splash-3d-background-generative-ai-background_60438-2521.jpg?semt=ais_rp_progressive&w=740&q=80');
+}
+
+.img8{
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVhPZmUF92PhTVHOQyt8LRchv0YNZK5cLloA&s');
+}
+
+.img11{
+    background-image: url('https://static6.depositphotos.com/1007682/555/v/450/depositphotos_5553882-stock-illustration-abstract-bright-background-with-teardrop.jpg');
+}
+
+.img12{
+    background-image: url('https://www.shutterstock.com/image-vector/colorful-background-elements-260nw-57738793.jpg');
+}
+
+.img13{
+    background-image: url('https://thumbs.dreamstime.com/b/abstract-colored-background-circles-24777837.jpg');
+}
+
+.img14{
+    background-image: url('https://st3.depositphotos.com/1007682/18476/v/450/depositphotos_184760524-stock-illustration-abstract-vector-colorful-arc-drop.jpg');
+}
+
+.img15{
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbIWEFNbmmqLoRBwsvYS8Atv3IypOgeDv-EQ&s');
+}
+
+.img16{
+    background-image: url('https://previews.123rf.com/images/itana/itana1211/itana121100092/16594522-circle-made-of-colorful-arc-drops-decorative-background.jpg');
+}
+
+.img17{
+    background-image: url('https://previews.123rf.com/images/itana/itana1108/itana110800011/10113618-color-water-drops-design-vector-background.jpg');
+}
+
+.img18{
+    background-image: url('https://i.pinimg.com/474x/54/c7/4b/54c74bda49fd98ebff005a72e06c0d75.jpg');
+}

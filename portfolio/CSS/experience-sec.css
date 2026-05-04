@@ -1,0 +1,139 @@
+:root {
+    --textcolor: rgb(190, 190, 190);
+}
+
+
+.next-slide{
+    background: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: -100vh;
+    z-index: 10;
+    position: relative;
+    border-radius: 50px 50px 0 0;
+}
+
+.experience-sec {
+    width: 100%;
+    background-color: black;
+    border-top: 1px solid grey;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 80px 250px 0px 250px;
+    position: relative;
+}
+
+.experience-sec h2{
+    -webkit-text-stroke: 2px rgb(179, 177, 177);
+    color:black;
+    text-align: center;
+    font-size: 7rem;
+    margin-bottom: 70px;
+    animation: changeColor both;
+    animation-timeline: view(10% 50%);
+}
+
+@keyframes changeColor {
+    0% {
+        opacity: 0.2;
+        color: black;
+    }
+    100% {
+        opacity: 1;
+        color: var(--textcolor);
+    }
+}
+.exp-card{
+    height: 500px;
+    padding: 20px 30px;
+    position: sticky;
+    max-width: 1000px;
+    box-shadow: 0 -30px 60px rgba(0, 0, 0, 0.6);
+    border-radius: 30px;
+    border: 2px solid white;
+    background: #000000;
+    gap: 2rem;
+}
+
+.exp-card,
+.exp-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.exp-img{
+    padding: 20px;
+}
+
+.exp-img img {
+    height: 420px;
+    width: 550px;
+    border-radius: 20px;
+} 
+
+.exp-card1{
+    top: 130px;
+    margin-bottom: 200px;
+}
+
+.exp-card2{
+    top: 160px;
+    margin-bottom: 200px;
+}
+.exp-card3{
+    top: 190px;
+    margin-bottom: 200px;
+}
+
+.adjust-card{
+    top: 210px;
+}
+
+.adjust-card{
+    height: 150px;
+    position: sticky;
+    max-width: 1000px;
+}
+
+.exper-ctn{
+    width: 100%;
+    max-width: 1000px;
+}
+
+.exp-content h4{
+    letter-spacing: 2px;
+    font-size: 2rem;
+    font-weight: 100;
+}
+
+.exp-content h4 b {
+    font-weight: bolder;
+}
+
+.exp-content h5{
+    font-size: 1.8rem;
+    letter-spacing: 2px;
+    font-weight: 100;
+}
+
+.blur-animation{
+    animation: blur-animation both;
+    animation-timeline: view(50% 20%);
+}
+
+@keyframes changeColor {
+    0% {
+        filter: blur(5px);
+        color: black;
+    }
+    100% {
+        filter: blur(0px);
+        color: var(--textcolor);
+    }
+}
